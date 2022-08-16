@@ -6,7 +6,7 @@ import Experiences from './components/experiences/experiences'
 import Interests from './components/interests/interests'
 import Footer from './components/footer/footer'
 
-import './App.css'
+import './index.css'
 
 function App() {
   return (

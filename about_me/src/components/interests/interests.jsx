@@ -2,7 +2,7 @@ import React from 'react';
 
 function Interests() {
 	return (
-		<div>I</div>
+		<div>interests</div>
 	)
 }
 

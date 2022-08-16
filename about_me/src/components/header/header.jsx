@@ -1,14 +1,16 @@
 import React from 'react'
-import '../App.css'
-import { Typography } from 'antd'
+// import '../../App.css'
 
-const { Title } = Typography
 
 function Header() {
   return (
-		<div class="centered">
-			<Title>HI!!!!</Title>
-		</div>
+		<header>
+			<div className="container header__container">
+				<h5>Hello I'm</h5>
+				<h1>Sally Sun</h1>
+				<h5 className='text-light'>UNSW Student</h5>
+			</div>
+		</header>
   );
 }
 
