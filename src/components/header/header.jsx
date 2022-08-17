@@ -1,7 +1,9 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import PIC from '../../assets/pic.png'
+import HeaderSocials from './HeaderSocials'
+
+// import PIC from '../../assets/pic.png'
 
 function Header() {
   return (
@@ -9,13 +11,14 @@ function Header() {
 			<div className="container header__container">
 				<h3>Hello I'm</h3>
 				<h1>Sally Sun</h1>
-				<h4 className='text-light'>UNSW Student</h4>
+				<h4 className='text-light'>2nd Year Computer Science / Science Student</h4>
 				<CTA />
-
-				<div className="me">
+				<HeaderSocials />
+				{/* <div className="me">
 					<img src={PIC} alt="" />
-				</div>
+				</div> */}
 
+				<a href="#contact" className="scroll__down">Scroll Down</a>
 			</div>
 		</header>
   );
