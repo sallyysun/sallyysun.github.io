@@ -1,8 +1,32 @@
 import React from 'react'
+import './experiences.css'
 
 function Experiences() {
 	return (
-		<section id='experiences'>Experiences</section>
+		<section id='experiences'>
+			<h3>My Experiences ...</h3>
+			<h2>some things i've done recently</h2>
+
+			<div className="container experience__container">
+				<div className="experience__dark">
+					<h4>UBS</h4>
+					<h3>Tech Cadet</h3>
+					<h5>July 2021 - Current</h5>
+				</div>
+
+				<div className="experience__light">
+					<h4>UNSW Business Society</h4>
+					<h3>Education Director</h3>
+					<h5>November 2021 - Current</h5>
+				</div>
+
+				<div className="experience__dark">
+					<h4>UNSW CSESoc</h4>
+					<h3>Circles Frontend</h3>
+					<h5>February 2021 - November 2021</h5>
+				</div>
+			</div>
+		</section>
 	)
 }
 
