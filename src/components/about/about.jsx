@@ -8,17 +8,9 @@ function About() {
 			<h3>~ some fun facts about me ~</h3>
 			
 			<div className="container about__container">
-				<div>
-					<h4>Favourite Colour: Purple</h4>
-				</div>
-
-				<div>
-					<h4>Personality Type: ENFJ-T</h4>
-				</div>
-
-				<div>
-					<h4>Fun Fact: I've changed degrees 3 times since 2021</h4>
-				</div>
+				<h4>Favourite Colour: Purple</h4>
+				<h4>Personality Type: ENFJ-T</h4>
+				<h4>Fun Fact: I've changed degrees 3 times since 2021</h4>					
 			</div>
 		</section>
 	)
