@@ -1,5 +1,6 @@
 import React from 'react'
 import './experiences.css'
+import BSOC1 from '../../assets/bsoc1.JPG'
 
 function Experiences() {
 	return (
@@ -14,7 +15,7 @@ function Experiences() {
 					<h5>July 2021 - Current</h5>
 					
 					<div className="picture">
-						
+					<img src={BSOC1} alt="bsoc1" />
 					</div>
 				</div>
 
