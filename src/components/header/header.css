@@ -39,6 +39,7 @@ header {
 	position: relative;
 	left: calc(50% - 12rem);
 	margin-top: 2rem;
+	overflow: hidden;
 }
 
 .me:hover {

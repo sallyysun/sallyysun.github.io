@@ -8,10 +8,14 @@ function Experiences() {
 			<h3>~ some things i've done recently ~</h3>
 
 			<div className="container experience__container">
-				<div className="experience__dark">
+				<div>
 					<h4>UBS</h4>
 					<h3>Tech Cadet</h3>
 					<h5>July 2021 - Current</h5>
+					
+					<div className="picture">
+						
+					</div>
 				</div>
 
 				<div>
