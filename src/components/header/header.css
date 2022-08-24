@@ -52,6 +52,10 @@ header {
 	header {
 		height: 68vh;
 	}
+
+	.me {
+		display: none;
+	}
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ==================== */
@@ -59,5 +63,9 @@ header {
 @media screen and (max-width: 600px) {
 	header {
 		height: 100vh;
+	}
+	
+	.me {
+		display: none;
 	}
 }

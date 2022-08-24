@@ -2,7 +2,6 @@ import React from 'react'
 import './experiences.css'
 import BSOC1 from '../../assets/bsoc1.jpg'
 import UBS1 from '../../assets/ubs1.jpg'
-import UBS2 from '../../assets/ubs2.jpg'
 import CIRCLES2 from '../../assets/circles2.PNG'
 
 function Experiences() {
@@ -30,7 +29,7 @@ function Experiences() {
 						<h5>November 2021 - Current</h5>
 					</div>
 					<div className="pictures fade">
-						<img src={BSOC1} alt="bsoc1bigger" />
+						<img src={BSOC1} alt="bsoc1" />
 					</div>
 				</div>
 
