@@ -26,17 +26,22 @@
 }
 
 .experience__content {
-	row-gap: 2rem;
 	position: relative;
+	overflow: hidden;
 }
 
 .experience__content > .pictures {
 	position: absolute;
 	inset: 0;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	transform: 200ms ease-in-out;
+	width: auto;
+	max-height: 100%;
+	object-fit: cover;
+	object-position: bottom;
+}
+
+.experience__content > .content,
+.experience__content > .pictures {
+	transform: 300ms ease-in-out;
 }
 
 .experience__content > .pictures.fade {
@@ -45,4 +50,26 @@
 
 .experience__content:hover > .pictures.fade {
 	opacity: 1;
+}
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES) ==================== */
+/* on tablets */
+@media screen and (max-width: 1024px) {
+	.experience__container {
+		grid-template-columns: 1fr;
+	}
+
+	.experience__container > div {
+		width: 80%;
+		padding: 2rem;
+		margin: 0 auto;
+	}
+}
+
+/* ================= MEDIA QUERIES (SMALL DEVICES) ==================== */
+/* on phones */
+@media screen and (max-width: 600px) {
+	.experience__container {
+		gap: 1rem;
+	}
 }
