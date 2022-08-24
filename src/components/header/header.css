@@ -21,11 +21,11 @@ header {
 /* ==================== SOCIALS ===================== */
 .header__socials {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
-	gap: 0.8rem;
-	position: absolute;
-	left: 0;
+	gap: 1.5rem;
+	position: fixed;
+	left: 5rem;
 	bottom: 3rem;
 }
 
@@ -42,10 +42,5 @@ header {
 @media screen and (max-width: 600px) {
 	header {
 		height: 100vh;
-	}
-	
-	.header__socials,
-	.scroll__down {
-		display: none;
 	}
 }

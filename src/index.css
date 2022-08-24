@@ -12,9 +12,10 @@
 
 :root {
 	--color-bg: #b37feb;
-	--color-bg-variant: rgba(224, 194, 243, 0.3);
+	--color-bg-variant: rgba(244, 240, 246, 0.193);
 	--color-primary: #efdbff;
 	--color-primary-variant: #9254de;
+	--color-black: black;
 	--color-grey: #595959;
 	--color-white: #fff;
 	--color-light: rgba(255,255,255,0.6);
@@ -76,7 +77,7 @@ section > h2 {
 }
 
 section > h3 { 
-	padding-top: 7rem;
+	padding-top: 3rem;
 	text-align: center;
 }
 
