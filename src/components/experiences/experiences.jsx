@@ -14,7 +14,7 @@ function Experiences() {
 				<div className='experience__content'>
 					<div className="content">
 						<h4>UBS</h4>
-						<h3>Tech Cadet</h3>
+						<h2>Tech Cadet</h2>
 						<h5>July 2021 - Current</h5>
 					</div>
 					<div className="pictures fade">
@@ -25,7 +25,7 @@ function Experiences() {
 				<div className='experience__content'>
 					<div className="content">
 						<h4>UNSW Business Society</h4>
-						<h3>Education Director</h3>
+						<h2>Education Director</h2>
 						<h5>November 2021 - Current</h5>
 					</div>
 					<div className="pictures fade">
@@ -36,7 +36,7 @@ function Experiences() {
 				<div className='experience__content'>
 					<div className="content">
 						<h4>UNSW CSESoc</h4>
-						<h3>Circles Frontend</h3>
+						<h2>Circles Frontend</h2>
 						<h5>February 2021 - November 2021</h5>
 					</div>
 					<div className="pictures fade">
@@ -46,7 +46,7 @@ function Experiences() {
 
 				<div className='experience__content'>
 					<h4>Self-Employed</h4>
-					<h3>3U & 4U Mathematics Tutor</h3>
+					<h2>3U & 4U Math Tutor</h2>
 					<h5>February 2019 - Current</h5>
 				</div>
 			</div>

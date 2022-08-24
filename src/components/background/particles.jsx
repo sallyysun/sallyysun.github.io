@@ -35,7 +35,7 @@ class ParticleBackground extends Component {
                       value: "transparent"
                      },
                      image: "",
-                     position: "",
+                     position: "absolute",
                      repeat: "",
                      size: "",
                      opacity: 0

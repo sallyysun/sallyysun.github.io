@@ -11,13 +11,12 @@ import './index.css'
 function App() {
   return (
     <>
-			<ParticleBackground />
 			<Header />
 			<Nav />
 			<About />
 			<Experiences />
 			<Interests />
-			
+			<ParticleBackground />
   	</>
 	);
 }
