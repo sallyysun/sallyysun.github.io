@@ -65,18 +65,18 @@ section {
 	height: 100vh;
 }
 
-section > h2, 
+section > h3, 
 section > h5 { 
 	text-align: center;
 	color: var(--color-light);
 }
 
-section > h2 {
+section > h3 {
 	color: var(--color-primary);
 	margin-bottom: 3rem;
 }
 
-section > h3 { 
+section > h2 { 
 	padding-top: 3rem;
 	text-align: center;
 }

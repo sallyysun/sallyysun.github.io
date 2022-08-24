@@ -4,8 +4,8 @@ import './experiences.css'
 function Experiences() {
 	return (
 		<section id='experiences'>
-			<h3>My Experiences ...</h3>
-			<h2>some things i've done recently</h2>
+			<h2>My Experiences</h2>
+			<h3>~ some things i've done recently ~</h3>
 
 			<div className="container experience__container">
 				<div className="experience__dark">

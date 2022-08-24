@@ -34,7 +34,9 @@ header {
 	border: 7px solid #ddd;
 	border-radius: 2px;
 	width: 24rem;
-	position: absolute;
+	height: auto;
+	max-width: 50%;
+	position: relative;
 	left: calc(50% - 12rem);
 	margin-top: 2rem;
 }
