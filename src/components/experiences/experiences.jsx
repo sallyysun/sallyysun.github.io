@@ -1,6 +1,6 @@
 import React from 'react'
 import './experiences.css'
-import BSOC1 from '../../assets/bsoc1.jpg'
+import BSOC1 from '../../assets/bsoc1bigger.JPG'
 
 function Experiences() {
 	return (
@@ -15,7 +15,7 @@ function Experiences() {
 					<h5>July 2021 - Current</h5>
 					
 					<div className="pictures fade">
-						<img src={BSOC1} alt="bsoc1" />
+						<img src={BSOC1} alt="bsoc1bigger" />
 					</div>
 				</div>
 
