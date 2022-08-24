@@ -27,25 +27,22 @@
 
 .experience__content {
 	row-gap: 2rem;
-}
-
-.box {
 	position: relative;
 }
 
-.box > .pictures {
+.experience__content > .pictures {
 	position: absolute;
 	inset: 0;
-	object-fit: cover;
-	object-position: center;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
 	transform: 200ms ease-in-out;
 }
 
-.box > .pictures.fade {
+.experience__content > .pictures.fade {
 	opacity: 0;
 }
 
-.box:hover > .pictures.fade {
+.experience__content:hover > .pictures.fade {
 	opacity: 1;
 }
