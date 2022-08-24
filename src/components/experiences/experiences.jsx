@@ -1,7 +1,8 @@
 import React from 'react'
 import './experiences.css'
 import BSOC1 from '../../assets/bsoc1.jpg'
-import UBS1 from '../../assets/ubs1.heic'
+import UBS1 from '../../assets/ubs1.jpg'
+import UBS2 from '../../assets/ubs2.jpg'
 import CIRCLES2 from '../../assets/circles2.PNG'
 
 function Experiences() {
