@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import UBS2 from '../../assets/ubs2.jpg'
+import UBS2 from '../../assets/ubs2port.jpg'
 import {FcLikePlaceholder, FcEngineering, 
 	FcStackOfPhotos, FcMms, FcFlashOn, FcFullTrash, 
 	FcWorkflow, FcBusinesswoman, FcAdvertising} from 'react-icons/fc'

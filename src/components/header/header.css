@@ -27,6 +27,7 @@ header {
 	position: fixed;
 	left: 5rem;
 	bottom: 3rem;
+	z-index: 2;
 }
 
 /* ==================== DP ===================== */
@@ -64,7 +65,7 @@ header {
 	header {
 		height: 100vh;
 	}
-	
+
 	.me {
 		display: none;
 	}
