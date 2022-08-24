@@ -29,6 +29,20 @@ header {
 	bottom: 3rem;
 }
 
+/* ==================== DP ===================== */
+.me {
+	border: 7px solid #ddd;
+	border-radius: 2px;
+	width: 24rem;
+	position: absolute;
+	left: calc(50% - 12rem);
+	margin-top: 2rem;
+}
+
+.me:hover {
+  box-shadow: 0 0 3px 5px var(--color-bg-variant);
+}
+
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 /* on tablets */
 @media screen and (max-width: 1024px) {
