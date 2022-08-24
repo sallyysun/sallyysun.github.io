@@ -1,23 +1,21 @@
 .interests__container {
 	background: var(--color-bg-variant);
-	padding: 2.4rem 2.4rem;
+	padding: 3.5rem 3.5rem;
 	border-radius: 4rem;
 	border: 1px solid transparent;
 	border-color: var(--color-primary-variant);
-	max-width: 60%;
+	max-width: 40%;
 }
 
 .interests__list {
 	display: grid;
-	grid-template-columns: 5% 90%;
-	gap: 1rem;
-	align-items: center;
-	max-width: 80%;
+	grid-template-columns: 5% 95%;
+	gap: 1.5rem;
 }
 
 /* ==================== Dramas ===================== */
 .dramas {
-	margin-top: 2.5rem;
+	margin-top: 1.5rem;
 	display: flex;
 	gap: 1.2rem;
 	justify-content: center;
