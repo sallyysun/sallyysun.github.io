@@ -18,7 +18,6 @@ function Header() {
 					<img src={PIC} alt="" />
 				</div> */}
 
-				<a href="#contact" className="scroll__down">Scroll Down</a>
 			</div>
 		</header>
   );

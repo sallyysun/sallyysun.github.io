@@ -3,7 +3,7 @@ import Header from './components/header/header'
 import Nav from './components/nav/nav'
 import Experiences from './components/experiences/experiences'
 import Interests from './components/interests/interests'
-import Contact from './components/contact/contact'
+import About from './components/about/about'
 
 import './index.css'
 
@@ -12,9 +12,9 @@ function App() {
     <>
 			<Header />
 			<Nav />
+			<About />
 			<Experiences />
 			<Interests />
-			<Contact />
   	</>
 	);
 }
