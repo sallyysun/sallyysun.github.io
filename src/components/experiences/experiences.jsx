@@ -1,6 +1,6 @@
 import React from 'react'
 import './experiences.css'
-import BSOC1 from '../../assets/bsoc1.JPG'
+import BSOC1 from '../../assets/bsoc1.jpg'
 
 function Experiences() {
 	return (
@@ -9,13 +9,13 @@ function Experiences() {
 			<h3>~ some things i've done recently ~</h3>
 
 			<div className="container experience__container">
-				<div>
+				<div className='box'>
 					<h4>UBS</h4>
 					<h3>Tech Cadet</h3>
 					<h5>July 2021 - Current</h5>
 					
-					<div className="picture">
-					<img src={BSOC1} alt="bsoc1" />
+					<div className="pictures fade">
+						<img src={BSOC1} alt="bsoc1" />
 					</div>
 				</div>
 

@@ -13,13 +13,7 @@
 	border-color: var(--color-primary-variant);
 }
 
-.experience__container > div h4 {
-	text-align: center;
-	margin-bottom: 0.2rem;
-	color: var(--color-primary-variant);
-}
-
-.experience__container > div h3 {
+.experience__container > div h4, h3 {
 	text-align: center;
 	margin-bottom: 0.2rem;
 	color: var(--color-primary-variant);
@@ -35,16 +29,23 @@
 	row-gap: 2rem;
 }
 
-.experience__container > .pictures {
+.box {
+	position: relative;
+}
+
+.box > .pictures {
 	position: absolute;
 	inset: 0;
 	object-fit: cover;
 	object-position: center;
-
+	width: 100%;
+	transform: 200ms ease-in-out;
 }
 
-/* .experience__details {
-	display: flex;
-	gap: 1rem;
-	text-align: center;
-} */
+.box > .pictures.fade {
+	opacity: 0;
+}
+
+.box:hover > .pictures.fade {
+	opacity: 1;
+}
