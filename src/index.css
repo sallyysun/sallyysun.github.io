@@ -73,7 +73,7 @@ section > h5 {
 }
 
 section > h3 {
-	color: var(--color-primary);
+    color: var(--color-primary-variant);
 	margin-bottom: 3rem;
 }
 
