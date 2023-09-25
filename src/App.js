@@ -13,7 +13,7 @@ function App() {
     <>
 			<Header />
 			<Nav />
-			<About />
+            <About />
 			<Experiences />
 			<Interests />
 			<ParticleBackground />

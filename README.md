@@ -1,1 +1,1 @@
-A fun profile page about me!
+My President vision for 2024.
