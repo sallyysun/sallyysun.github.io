@@ -67,7 +67,8 @@ function Interests() {
             events for members to attend. The appeal of Dev is its fluidity to
             do whatever you want. I really want all committee members to have
             the ability to take initiative and bring their event ideas to life
-            with this new initiative. Here are some event ideas
+            with this new initiative. Here are some ideas of events I hope to
+            create for DevSoc:
             <div className="interests__list">
               <h4>1.</h4>
               <h4>Sponsor Speaker Panel</h4>
@@ -83,8 +84,9 @@ function Interests() {
             <div className="interests__list">
               <h4>4.</h4>
               <h4>
-                Internal Committee Workshops: Interview Tips, OA, Personal
-                Website, Resume, LinkedIn
+                Internal Committee Workshops: Interview Tips, OA Tips, How to
+                make a personal website, How to write a resume, How to leverage
+                LinkedIn
               </h4>
             </div>
             <div className="interests__list">
@@ -98,10 +100,44 @@ function Interests() {
           <h5 className="text-light">
             In order to build a inclusive, welcoming and exciting environment
             for DevSoc, the development of the Culture Portfolio is key. The
-            whole society roadtrip, Meritons, Outings and Study Sessions have
-            been amazing. We could implement more cross portfolio bonding and
-            division focused events. Other ideas include Scavenger Hunt and
-            Games Night.
+            whole society roadtrip, Meritons, outings, hangout rooms and study
+            sessions have been amazing. As DevSoc continues to grow, it becomes
+            harder to get to know everyone in the whole society. However, to
+            help facilitate as many fun bonding activites as possible, where you
+            really get to meet and get to know other people, we could implement:
+            <div className="interests__list">
+              <h4>1.</h4>
+              <h4>
+                More cross portfolio bonding activities across divisions so most
+                portfolios get to meet each other
+              </h4>
+            </div>
+            <div className="interests__list">
+              <h4>2.</h4>
+              <h4>
+                Work with VPs to create division specific events and dinners so
+                divisions are able to bond and get to know each other. We could
+                also run division roadtrips if there is interest.
+              </h4>
+            </div>
+            <div className="interests__list">
+              <h4>3.</h4>
+              <h4>
+                Scavenger Hunt where everyone is split up across the committee
+                so we get to meet different people
+              </h4>
+            </div>
+          </h5>
+        </div>
+        <div className="content">
+          <h3 className="text-purple">Ideas Box</h3>
+          <h5 className="text-light">
+            This is an opportunity for anyone to publicly or anonymously suggest
+            ideas for any portfolio. This could be a Culture event, Content
+            idea, project idea / feedback or any general event. This is to help
+            facilitate inclusion for every committee member to create impact on
+            DevSoc. (It would be up to the portfolio to decide to implement
+            these ideas).
           </h5>
         </div>
       </div>
@@ -114,8 +150,11 @@ function Interests() {
           FInally, we must continue what we do best, which is development and
           code. It would be great to see our projects develop a centralised
           design and platform with the UX/UI and Platform teams. I am also keen
-          to see the development of other projects.
+          to see the development of all our projects.
         </h5>
+      </div>
+      <div className="container space">
+        <h2>Keen to see you all next year!</h2>
       </div>
     </section>
   );

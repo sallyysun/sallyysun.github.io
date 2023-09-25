@@ -1,7 +1,7 @@
 .interests__container {
 	background: var(--color-bg-variant);
-    padding: 2.3rem 2.3rem;
-        gap: 2rem;
+    padding: 3rem 3rem;
+        gap: 3rem;
 	border-radius: 4rem;
 	border: 1px solid transparent;
 	border-color: var(--color-primary-variant);
@@ -18,6 +18,11 @@
 	gap: 1.5rem;
 }
 
+.space {
+    height: 80vh;
+    padding: 3rem;
+    text-align: center;
+}
 /* ==================== Dramas ===================== */
 .dramas {
 	margin-top: 1.5rem;
