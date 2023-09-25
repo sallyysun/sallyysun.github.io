@@ -2,7 +2,7 @@ import React from "react";
 import "./experiences.css";
 import BSOC1 from "../../assets/bsoc1.jpg";
 import BSOC2 from "../../assets/bsoc2.jpg";
-import UBS1 from "../../assets/ubs1.jpg";
+import NOTANGLES from "../../assets/notangles.jpg";
 import CIRCLES1 from "../../assets/circles1.PNG";
 import CIRCLES2 from "../../assets/circles2.PNG";
 
@@ -41,7 +41,7 @@ function Experiences() {
             been really lovely and so incredibly hardworking.
           </h4>
           <div className="pictures fade">
-            <img src={BSOC1} alt="bsoc1" />
+            <img src={NOTANGLES} alt="notangles" />
           </div>
         </div>
 

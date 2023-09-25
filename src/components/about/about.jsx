@@ -1,12 +1,20 @@
 import React from 'react'
 import './about.css'
-import UBS2 from '../../assets/ubs2port.jpg'
-import {FcLikePlaceholder, FcEngineering, 
-	FcStackOfPhotos, FcMms, FcFlashOn, FcFullTrash, 
-	FcWorkflow, FcBusinesswoman, FcAdvertising} from 'react-icons/fc'
+import DP4 from "../../assets/dp4.jpg";
+import {
+  FcLikePlaceholder,
+  FcEngineering,
+  FcStackOfPhotos,
+  FcMms,
+  FcFlashOn,
+  FcFullTrash,
+  FcWorkflow,
+  FcBusinesswoman,
+  FcAdvertising,
+} from "react-icons/fc";
 
 function About() {
-	return (
+  return (
     <section id="about">
       <h2>A Bit About Me</h2>
       <h3>~ some fun facts ~</h3>
@@ -14,7 +22,7 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={UBS2} alt="ubs2" />
+            <img src={DP4} alt="dp4" />
           </div>
         </div>
 

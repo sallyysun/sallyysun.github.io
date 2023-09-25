@@ -1,10 +1,8 @@
 import React from 'react'
-import './interests.css'
-import Dramas from './dramas'
-import {FcStart} from 'react-icons/fc'
+import "./interests.css";
 
 function Interests() {
-	return (
+  return (
     <section id="interests">
       <h2>My Vision</h2>
       <h3>~ 2024 outlook ~</h3>
@@ -44,10 +42,17 @@ function Interests() {
         <div className="content">
           <h3>Marketing</h3>
           <h5 className="text-light">
-            Finally, I hope to develop DevSoc's presence in the UNSW space.
-            Despite the popularity of our Course Projects within the CSE
-            community, many people in the wider UNSW do not know about our
-            amazing projects.
+            Finally, I hope to grow DevSoc's presence in the UNSW space. I hope
+            to create a Linkedin and Facebook page to start our community and
+            advertise our events. Despite the popularity of our Course Projects
+            within the CSE community, many people in the wider UNSW do not know
+            about our amazing projects. I hope that by the end of 2024, we
+            expand our user base to the rest of UNSW. This could be done through
+            advertising through placing posters around UNSW, posting on
+            Facebook, Instagram, Tiktok, Xiaohongshu, Wechat, as well as liasing
+            with other societies to promote within their society. Finally, I
+            believe that there is also potential to collaborate with the UNSW
+            CSE School to develop, market and promote our projects.
           </h5>
         </div>
       </div>
@@ -55,34 +60,60 @@ function Interests() {
         <div className="content">
           <h2>Initiatives</h2>
         </div>
-        <h3>Bring your Event to Life</h3>
-        <h5 className="text-light">
-          I participated in the Trainee Program in 2022 T3, and together with
-          Notangles this year I've met so many amazing people who have all been
-          really lovely and so incredibly hardworking.
-        </h5>
-        <h3>Culture</h3>
-        <h5 className="text-light">
-          I participated in the Trainee Program in 2022 T3, and together with
-          Notangles this year I've met so many amazing people who have all been
-          really lovely and so incredibly hardworking.
-        </h5>
-        <h3>Content</h3>
-        <h5 className="text-light">
-          I participated in the Trainee Program in 2022 T3, and together with
-          Notangles this year I've met so many amazing people who have all been
-          really lovely and so incredibly hardworking.
-        </h5>
+        <div className="content">
+          <h3>Bring your Event to Life</h3>
+          <h5 className="text-light">
+            I believe that DevSoc can also host its own internal and external
+            events for members to attend. The appeal of Dev is its fluidity to
+            do whatever you want. I really want all committee members to have
+            the ability to take initiative and bring their event ideas to life
+            with this new initiative. Here are some event ideas
+            <div className="interests__list">
+              <h4>1.</h4>
+              <h4>Sponsor Speaker Panel</h4>
+            </div>
+            <div className="interests__list">
+              <h4>2.</h4>
+              <h4>LinkedIn Photoshoot Day</h4>
+            </div>
+            <div className="interests__list">
+              <h4>3.</h4>
+              <h4>Alumni Cocktails and Networking Night</h4>
+            </div>
+            <div className="interests__list">
+              <h4>4.</h4>
+              <h4>
+                Internal Committee Workshops: Interview Tips, OA, Personal
+                Website, Resume, LinkedIn
+              </h4>
+            </div>
+            <div className="interests__list">
+              <h4>5.</h4>
+              <h4>Personal Project Showcase</h4>
+            </div>
+          </h5>
+        </div>
+        <div className="content">
+          <h3>Culture</h3>
+          <h5 className="text-light">
+            In order to build a inclusive, welcoming and exciting environment
+            for DevSoc, the development of the Culture Portfolio is key. The
+            whole society roadtrip, Meritons, Outings and Study Sessions have
+            been amazing. We could implement more cross portfolio and division
+            focused events.
+          </h5>
+        </div>
       </div>
       <div className="container interests__container">
         <div className="content">
           <h2>Continue what we do well</h2>
         </div>
-        <h3>UX/UI</h3>
+        <h3>Development</h3>
         <h5 className="text-light">
-          I participated in the Trainee Program in 2022 T3, and together with
-          Notangles this year I've met so many amazing people who have all been
-          really lovely and so incredibly hardworking.
+          FInally, we must continue what we do best, which is develpment and
+          code. It would be great to see our projects develop a centralised
+          design and platform with the UX/UI and Platform teams. I am also keen
+          to see the development of other projects.
         </h5>
       </div>
     </section>

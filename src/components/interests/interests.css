@@ -1,21 +1,20 @@
 .interests__container {
 	background: var(--color-bg-variant);
-    padding: 2.5rem 2.5rem;
+    padding: 2.3rem 2.3rem;
         gap: 2rem;
 	border-radius: 4rem;
 	border: 1px solid transparent;
 	border-color: var(--color-primary-variant);
-    max-width: 90%;
-        justify-content: space-between;
+    max-width: 70%;
     }
     
-    .interests__container>div {
-        padding: 0.5rem;
+.interests__container>div {
+    padding: 0.5rem;
 }
 
 .interests__list {
 	display: grid;
-	grid-template-columns: 5% 95%;
+    grid-template-columns: 1% 99%;
 	gap: 1.5rem;
 }
 

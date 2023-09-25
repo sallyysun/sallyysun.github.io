@@ -5,6 +5,7 @@ import Nav from './components/nav/nav'
 import Experiences from './components/experiences/experiences'
 import Interests from './components/interests/interests'
 import About from './components/about/about'
+import Space from './components/space/space'
 
 import './index.css'
 
@@ -16,6 +17,7 @@ function App() {
             <About />
 			<Experiences />
 			<Interests />
+            <Space />
 			<ParticleBackground />
   	</>
 	);

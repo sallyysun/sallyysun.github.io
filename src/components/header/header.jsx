@@ -1,8 +1,7 @@
 import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import HeaderSocials from './HeaderSocials'
-import DP from '../../assets/dp.JPG'
+import "./header.css";
+import HeaderSocials from "./HeaderSocials";
+import DP from "../../assets/dp3.jpg";
 
 function Header() {
   return (
