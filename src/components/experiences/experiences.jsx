@@ -14,11 +14,11 @@ function Experiences() {
       <div className="container experience__container">
         <div className="experience__content">
           <div className="content">
-            <h2>Circles Subcommittee</h2>
+            <h2>Circles Subcom</h2>
             <h5>2021</h5>
           </div>
           <h4 className="text-light">
-            I was Circles subcommittee under James and Jennifer, and we ideated,
+            I was Circles subcommittee under James and Jenn, and we ideated,
             designed and built the beginning of the Circles you see now. Circles
             was the reason I decided to switch degrees to Computer Science at
             the end of the year. I learnt so much about front-end development
@@ -32,7 +32,7 @@ function Experiences() {
 
         <div className="experience__content">
           <div className="content">
-            <h2>Trainee Program & Notangles Subcommittee</h2>
+            <h2>Trainee Program & Notangles Subcom</h2>
             <h5>2022 T3 & 2023</h5>
           </div>
           <h4 className="text-light">
@@ -40,6 +40,10 @@ function Experiences() {
             Notangles this year I've met so many amazing people who have all
             been really lovely and so incredibly hardworking.
           </h4>
+          <h5>
+            Shoutout to MJ, Raiyan, Rachel, Manhua, Wanning, Sijin, Jasmine,
+            Shaam, Eklavya, Michael
+          </h5>
           <div className="pictures fade">
             <img src={NOTANGLES} alt="notangles" />
           </div>
