@@ -99,8 +99,9 @@ function Interests() {
             In order to build a inclusive, welcoming and exciting environment
             for DevSoc, the development of the Culture Portfolio is key. The
             whole society roadtrip, Meritons, Outings and Study Sessions have
-            been amazing. We could implement more cross portfolio and division
-            focused events.
+            been amazing. We could implement more cross portfolio bonding and
+            division focused events. Other ideas include Scavenger Hunt and
+            Games Night.
           </h5>
         </div>
       </div>
@@ -110,7 +111,7 @@ function Interests() {
         </div>
         <h3>Development</h3>
         <h5 className="text-light">
-          FInally, we must continue what we do best, which is develpment and
+          FInally, we must continue what we do best, which is development and
           code. It would be great to see our projects develop a centralised
           design and platform with the UX/UI and Platform teams. I am also keen
           to see the development of other projects.
