@@ -1,6 +1,6 @@
 header {
 	height: 100vh;
-    padding-top: 6rem;
+    padding-top: 4rem;
 	overflow: hidden;
 }
 
@@ -11,6 +11,9 @@ header {
     max-width: 60%;
 }
 
+.text__container {
+    margin-bottom: 1em;
+}
 /* ==================== CTA ===================== */
 .cta {
 	margin-top: 2.5rem;
