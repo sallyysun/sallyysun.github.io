@@ -22,7 +22,8 @@ function Experiences() {
             designed and built the beginning of the Circles you see now. Circles
             was the reason I decided to switch degrees to Computer Science at
             the end of the year. I learnt so much about front-end development
-            this year and really treasure this opportunity.
+            this year and loved ideating a new site. (Fun fact: all my mock up
+            designs were purple so we ended up making Circles purple.)
           </h5>
           <div className="pictures fade">
             <img src={CIRCLES1} alt="circles1" />
@@ -36,9 +37,11 @@ function Experiences() {
             <h4>2022 T3 & 2023</h4>
           </div>
           <h5 className="text-light">
-            I participated in the Trainee Program in 2022 T3, and together with
-            Notangles this year I've met so many amazing people who have all
-            been really lovely and so incredibly hardworking.
+            I participated in the Trainee Program in 2022 T3 where we made a
+            Roadtrip Planner. Notangles this year has also been an amazing
+            experience where I have learnt how to structure and add to a large
+            repository. I have met so many incredibly hardworking who have all
+            been really lovely.
           </h5>
           <h5>
             Shoutout to MJ, Raiyan, Rachel, Manhua, Wanning, Sijin, Jasmine,
@@ -52,13 +55,18 @@ function Experiences() {
         <div className="experience__content">
           <div className="content">
             <h2>Education Director</h2>
-            <h4>2022 (in bsoc)</h4>
+            <h4>2022 (BSOC)</h4>
             <h5 className="text-light">
-              Throughout this experience I organised a Peer Mentoring Program
-              with 600+ attendees, as well as put some of my own ideas into
-              action, such as Linkedin Workshop, a Business Majors Fair and
-              more. This is experience has what honed my ability to lead a group
-              of people to achieve a common goal.
+              I led a team of 8 subcom to create events such as Peer Mentoring
+              Program with 600+ attendees, Linkedin Workshop, a Business Majors
+              Fair and more. This experience developed my leadership skills and
+              organisational ability. I put my ideas into action in order to
+              provide value for the Business students community in terms of
+              career, peer and academic development. I hope to achieve the same
+              and much more in DevSoc.
+            </h5>
+            <h5 className="text-light">
+              Other society experiences: BITSA, I4C
             </h5>
           </div>
           <div className="pictures fade">
