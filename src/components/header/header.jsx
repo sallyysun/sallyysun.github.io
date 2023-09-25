@@ -8,7 +8,7 @@ function Header() {
     <header>
       <div className="container header__container">
         <h2>Hello I'm</h2>
-        <h1>Sally Sun</h1>
+        <h1 className="text-purple">Sally Sun</h1>
         <h4 className="text-light">
           I am a 2nd Year Computer Science / Science Student. I am running to be
           your DevSoc President for 2024.
