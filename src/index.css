@@ -86,6 +86,9 @@ section > h2 {
 	color: var(--color-light);
 }
 
+.text-purple {
+    color: var(--color-primary-variant);
+}
 a {
 	color: var(--color-primary);
 	transition: var(--transition);

@@ -11,13 +11,13 @@ function Interests() {
           <h2>Focus</h2>
         </div>
         <div className="content">
-          <h3>Creative Freedom</h3>
+          <h3 className="text-purple">Creative Freedom</h3>
           <h5 className="text-light">
             I believe that the core value that motivated people to join DevSoc
             is CREATION, whether it be projects, new features, a new event, a
             podcast or a video idea. And through our creations, we can learn so
             much more.
-          </h5>{" "}
+          </h5>
           <h5 className="text-light">
             As President, I would conduct planning days with VPs and Directors
             to understand their vision for the year and provide my support to
@@ -28,7 +28,7 @@ function Interests() {
           </h5>
         </div>
         <div className="content">
-          <h3>Environment</h3>
+          <h3 className="text-purple">Environment</h3>
           <h5 className="text-light">
             With DevSoc becoming its own society, I believe that a key aspect of
             solidfying our identity is to create an inclusive, welcoming and
@@ -40,7 +40,7 @@ function Interests() {
           </h5>
         </div>
         <div className="content">
-          <h3>Marketing</h3>
+          <h3 className="text-purple">Marketing</h3>
           <h5 className="text-light">
             Finally, I hope to grow DevSoc's presence in the UNSW space. I hope
             to create a Linkedin and Facebook page to start our community and
@@ -61,7 +61,7 @@ function Interests() {
           <h2>Initiatives</h2>
         </div>
         <div className="content">
-          <h3>Bring your Event to Life</h3>
+          <h3 className="text-purple">Bring your Event to Life</h3>
           <h5 className="text-light">
             I believe that DevSoc can also host its own internal and external
             events for members to attend. The appeal of Dev is its fluidity to
@@ -94,7 +94,7 @@ function Interests() {
           </h5>
         </div>
         <div className="content">
-          <h3>Culture</h3>
+          <h3 className="text-purple">Culture</h3>
           <h5 className="text-light">
             In order to build a inclusive, welcoming and exciting environment
             for DevSoc, the development of the Culture Portfolio is key. The
@@ -109,7 +109,7 @@ function Interests() {
         <div className="content">
           <h2>Continue what we do well</h2>
         </div>
-        <h3>Development</h3>
+        <h3 className="text-purple">Development</h3>
         <h5 className="text-light">
           FInally, we must continue what we do best, which is development and
           code. It would be great to see our projects develop a centralised
