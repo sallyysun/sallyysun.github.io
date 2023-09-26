@@ -143,12 +143,13 @@ function Interests() {
       </div>
       <div className="container interests__container">
         <div className="content">
-          <h2>Continue what we do well</h2>
+          <h2>Continue What We Do Best</h2>
         </div>
         <h3 className="text-purple">Development</h3>
         <h5 className="text-light">
-          FInally, we must continue what we do best, which is development and
-          code. It would be great to see our projects develop a centralised
+          All Dev projects have had incredible development throughout the course
+          of 2023. And, we must continue what we do best, which is development
+          and code. It would be great to see our projects develop a centralised
           design and platform with the UX/UI and Platform teams. I am also keen
           to see the development of all our projects.
         </h5>

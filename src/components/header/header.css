@@ -41,8 +41,9 @@ header {
 	width: 24rem;
 	height: auto;
 	max-width: 50%;
-	position: relative;
-	left: calc(50% - 12rem);
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	margin-top: 2rem;
 	overflow: hidden;
 }
@@ -55,11 +56,11 @@ header {
 /* on tablets */
 @media screen and (max-width: 1024px) {
 	header {
-		height: 68vh;
+        height: 110vh;
 	}
 
 	.me {
-		display: none;
+        max-width: 70%;
 	}
 }
 
@@ -67,10 +68,10 @@ header {
 /* on phones */
 @media screen and (max-width: 600px) {
 	header {
-		height: 100vh;
+		height: 120vh;
 	}
 
 	.me {
-		display: none;
+        max-width: 90%;
 	}
 }

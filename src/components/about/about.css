@@ -1,3 +1,8 @@
+about {
+    height: 100vh;
+    padding-top: 4rem;
+    overflow: hidden;
+}
 .about__container {
 	display: grid;
 	grid-template-columns: 25% 65%;
@@ -52,17 +57,26 @@
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 /* on tablets */
 @media screen and (max-width: 1024px) {
+    /* section {
+        height: 100vh !important;
+    } */
+
 	.about__container {
 		grid-template-columns: 1fr;
+        padding: 1rem 1rem;
 	}
 
-	.about__me {
-		display: none;
+	.about__me-image {
+		width: 40%;
+        place-items: center;
 	}
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ==================== */
 /* on phones */
 @media screen and (max-width: 600px) {
-
+	.about__me-image {
+		width: 60%;
+        place-items: center;
+	}
 }
