@@ -76,7 +76,7 @@ about {
 /* on phones */
 @media screen and (max-width: 600px) {
 	.about__me-image {
-		width: 60%;
+		width: 70%;
         place-items: center;
 	}
 }

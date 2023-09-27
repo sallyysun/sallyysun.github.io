@@ -79,4 +79,8 @@
 	.experience__container {
 		gap: 2.5rem;
 	}
+
+    .pictures {
+        display: None;
+    }
 }
